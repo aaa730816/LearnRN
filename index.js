@@ -32,7 +32,7 @@ export default class LearnRn extends Component {
                 <TextInput style={styles.textInputStyle} placeholder={'请输入手机号'} onChangeText={(newText)=>this.updateNum(newText)}/>
                 <Text style={styles.textPromptSize}>您输入的手机号:{this.state.inputedNum}</Text>
                 <TextInput style={styles.textInputStyle} placeholder={'请输入密码'} secureTextEntry={true} onChangeText={this.updatePW}/>
-                <Text style={styles.bigTextPrompt}>确定</Text>
+                <Text style={styles.bigTextPrompt}>确定11</Text>
             </View>
         );
     }
